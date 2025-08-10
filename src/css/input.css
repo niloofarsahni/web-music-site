@@ -1,0 +1,22 @@
+@font-face {
+    font-family: 'font-snap';
+    src: url("../Font/snapfont/Snapp\ Web\ Regular.ttf");
+    font-weight: normal; /* Adjust if your font has specific weights, e.g., 400 for regular */
+  font-style: normal; /* Adjust if it's italic, etc. */
+ 
+
+    
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+body{
+font-family: 'font-snap', sans-serif;
+
+}
+
+}
